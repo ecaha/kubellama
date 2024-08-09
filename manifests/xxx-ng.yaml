@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx-ec
+spec:
+  containers:
+  - name: nginx
+    image: hyperamd.kulikov.virtual:5000/nginx-ec:latest
+    imagePullPolicy: Always

@@ -1,0 +1,2 @@
+#copy disk to pvc by virtctl
+#C:\temp\virtctl image-upload --pvc windows-osdisk-pvc --insecure --size 30Gi --image-path C:\temp\W2k22dcgui.qcow2
